@@ -1,0 +1,8 @@
+// Prometheus
+#define PUSHGW_IP "1.2.3.4"
+#define PUSHGW_PORT 9091
+#define JOB "climate"
+
+// Wifi
+#define WIFI_ESSID "WifiName"
+#define WIFI_PASSWORD "some_secret"
