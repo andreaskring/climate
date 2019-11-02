@@ -5,4 +5,5 @@ venv
 
 arduino/climate/settings.h
 utils/instances.txt
+grafana/instance-dashboards
 

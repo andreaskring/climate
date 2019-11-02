@@ -65,13 +65,13 @@
       "steppedLine": false,
       "targets": [
         {
-          "expr": "temp{exported_instance=\"50:02:91:C9:AF:83\"}",
+          "expr": "temp{exported_instance=\"$$INSTANCE$$\"}",
           "hide": false,
           "legendFormat": "Temperatur",
           "refId": "A"
         },
         {
-          "expr": "rh{exported_instance=\"50:02:91:C9:AF:83\"}",
+          "expr": "rh{exported_instance=\"$$INSTANCE$$\"}",
           "hide": false,
           "instant": false,
           "legendFormat": "Relativ luftfugtighed",
@@ -160,7 +160,7 @@
       "pluginVersion": "6.4.3",
       "targets": [
         {
-          "expr": "temp{exported_instance=\"50:02:91:C9:AF:83\"}",
+          "expr": "temp{exported_instance=\"$$INSTANCE$$\"}",
           "legendFormat": "Temperatur",
           "refId": "A"
         }
@@ -211,7 +211,7 @@
       "pluginVersion": "6.4.3",
       "targets": [
         {
-          "expr": "rh{exported_instance=\"50:02:91:C9:AF:83\"}",
+          "expr": "rh{exported_instance=\"$$INSTANCE$$\"}",
           "legendFormat": "Temperatur",
           "refId": "A"
         }
