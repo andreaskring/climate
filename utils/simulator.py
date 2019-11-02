@@ -2,6 +2,7 @@ import random
 import requests
 import time
 
+
 INSTANCE = '50:02:91:C9:AF:83'
 PUSHGW_URL = 'http://localhost:9091/metrics/job/climate/instance/' + INSTANCE
 
