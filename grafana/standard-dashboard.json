@@ -25,7 +25,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": null,
+      "datasource": "Prometheus",
       "fill": 1,
       "fillGradient": 0,
       "gridPos": {
@@ -120,7 +120,7 @@
       }
     },
     {
-      "datasource": null,
+      "datasource": "Prometheus",
       "gridPos": {
         "h": 8,
         "w": 6,
@@ -171,7 +171,7 @@
       "type": "gauge"
     },
     {
-      "datasource": null,
+      "datasource": "Prometheus",
       "gridPos": {
         "h": 8,
         "w": 6,
