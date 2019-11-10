@@ -18,8 +18,7 @@ if not os.path.isdir(INSTANCE_DASHBOARD_FOLDER):
 for instance in instances:
     dashboard['title'] = instance
     for panel in dashboard['panels']:
-        panel['title'] = instance
         for target in panel['targets']:
-            target['expr'] = target['expr'].replace('$$INSTANCE$$', instance)
+            target['expr'] = target['expr'].replace('INSTANCE', instance)
     with open('../grafana/instance-dashboards/%s.json' % instance, 'w') as f:
         json.dump(dashboard, f)

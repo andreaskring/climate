@@ -66,12 +66,12 @@
       "steppedLine": false,
       "targets": [
         {
-          "expr": "temp{exported_instance=\"50:02:91:C9:AF:83\"}",
+          "expr": "temp{exported_instance=\"INSTANCE\"}",
           "legendFormat": "Temperature",
           "refId": "A"
         },
         {
-          "expr": "rh{exported_instance=\"50:02:91:C9:AF:83\"}",
+          "expr": "rh{exported_instance=\"INSTANCE\"}",
           "legendFormat": "Relativ luftfugtighed",
           "refId": "B"
         }
@@ -80,7 +80,7 @@
       "timeFrom": null,
       "timeRegions": [],
       "timeShift": null,
-      "title": "TITLE_GRAPH",
+      "title": "Temperatur og relativ luftfugtighed",
       "tooltip": {
         "shared": true,
         "sort": 0,
@@ -166,7 +166,7 @@
       "pluginVersion": "6.4.1",
       "targets": [
         {
-          "expr": "temp{exported_instance=\"50:02:91:C9:AF:83\"}",
+          "expr": "temp{exported_instance=\"INSTANCE\"}",
           "legendFormat": "Temperatur",
           "refId": "A"
         }
@@ -221,7 +221,7 @@
       "pluginVersion": "6.4.1",
       "targets": [
         {
-          "expr": "rh{exported_instance=\"50:02:91:C9:AF:83\"}",
+          "expr": "rh{exported_instance=\"INSTANCE\"}",
           "legendFormat": "Temperatur",
           "refId": "A"
         }
