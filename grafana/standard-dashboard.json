@@ -107,7 +107,7 @@
           "format": "humidity",
           "label": null,
           "logBase": 1,
-          "max": null,
+          "max": "80",
           "min": "35",
           "show": true
         }
